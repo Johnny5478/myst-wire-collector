@@ -1,41 +1,18 @@
-Claude
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Collector · PY
 #!/usr/bin/env python3
 """
 collector.py — overnight newswire collector for the MYST Engine.
- 
+
 Runs on a schedule in GitHub Actions (see .github/workflows/collect.yml). Each run:
   1. fetches the four wire-wide RSS feeds (PR Newswire, GlobeNewswire, Business Wire,
      ACCESS Newswire),
   2. merges every item into items.json, de-duplicated by guid/link,
   3. drops anything older than RETAIN_HOURS,
   4. writes items.json + status.json (the workflow commits them).
- 
+
 It stores EVERYTHING the wires publish — no ticker list lives here. The Engine on
 John's PC downloads items.json at startup / before the 8:00 brief and filters it
 against the active universe locally.
- 
+
 No third-party dependencies: urllib + xml.etree only.
 """
 import json
@@ -48,7 +25,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
- 
+
 # PR Newswire feeds return only ~20 items each, so its 16 industry feeds are
 # polled alongside the all-releases feed (mostly disjoint → ~17x the coverage).
 PRN_CATEGORIES = [
@@ -84,20 +61,20 @@ HEADERS = {
     "Accept-Language": "en-US,en;q=0.9",
     "Cache-Control": "no-cache",
 }
- 
- 
+
+
 def fetch(url, timeout=25):
     req = urllib.request.Request(url, headers=HEADERS)
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read()
- 
- 
+
+
 def strip_html(s):
     s = re.sub(r"<[^>]+>", " ", s or "")
     s = htmlmod.unescape(s)
     return re.sub(r"\s+", " ", s).strip()
- 
- 
+
+
 def to_iso(s):
     s = (s or "").strip()
     if not s:
@@ -110,23 +87,23 @@ def to_iso(s):
         return datetime.fromisoformat(s.replace("Z", "+00:00")).astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     except Exception:
         return None
- 
- 
+
+
 def local(tag):
     return tag.split("}", 1)[-1] if "}" in tag else tag
- 
- 
+
+
 def first(el, names):
     for child in el:
         if local(child.tag) in names:
             return child
     return None
- 
- 
+
+
 def text(el):
     return (el.text or "").strip() if el is not None else ""
- 
- 
+
+
 def parse_feed(xml_bytes, source):
     root = ET.fromstring(xml_bytes)
     out = []
@@ -154,8 +131,8 @@ def parse_feed(xml_bytes, source):
         out.append({"guid": guid, "title": title, "link": link, "publishedAt": to_iso(pub),
                     "summary": strip_html(desc)[:SUMMARY_CHARS], "source": source})
     return [x for x in out if x["title"] or x["link"]]
- 
- 
+
+
 def load_items():
     try:
         with open(ITEMS_FILE, "r", encoding="utf-8") as f:
@@ -163,8 +140,8 @@ def load_items():
         return d.get("items", []) if isinstance(d, dict) else d
     except Exception:
         return []
- 
- 
+
+
 def main():
     now = datetime.now(timezone.utc)
     now_iso = now.strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -175,7 +152,7 @@ def main():
         k = it.get("guid") or it.get("link") or it.get("title")
         if k:
             by_key[k] = it
- 
+
     status = {"ranAt": now_iso, "feeds": [], "retainHours": RETAIN_HOURS}
     new_total = 0
     for name, url in FEEDS:
@@ -209,7 +186,7 @@ def main():
         new_total += row["new"]
         status["feeds"].append(row)
         print(f"[{name}] {row['items']} items, {row['new']} new")
- 
+
     # Roll the 17 PR Newswire rows up to one line per wire in the status summary.
     rollup = {}
     for r in status["feeds"]:
@@ -222,14 +199,14 @@ def main():
         g["items"] += r["items"]
         g["new"] += r["new"]
     status["byWire"] = list(rollup.values())
- 
+
     kept = [it for it in by_key.values() if (it.get("publishedAt") or it.get("seenAt") or now_iso) >= cutoff]
     kept.sort(key=lambda x: x.get("publishedAt") or "", reverse=True)
     status["itemsStored"] = len(kept)
     status["newThisRun"] = new_total
     status["newest"] = kept[0]["publishedAt"] if kept else None
     status["oldest"] = kept[-1]["publishedAt"] if kept else None
- 
+
     with open(ITEMS_FILE, "w", encoding="utf-8") as f:
         json.dump({"updatedAt": now_iso, "retainHours": RETAIN_HOURS, "count": len(kept), "items": kept}, f, ensure_ascii=False, separators=(",", ":"))
     with open(STATUS_FILE, "w", encoding="utf-8") as f:
@@ -238,9 +215,7 @@ def main():
     # Non-zero exit only if EVERY feed failed, so one broken wire never stops the others.
     if all(r["status"] == "error" for r in status["feeds"]):
         sys.exit(1)
- 
- 
+
+
 if __name__ == "__main__":
     main()
- 
-Claude finished the response
