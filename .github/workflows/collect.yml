@@ -1,31 +1,33 @@
 name: Collect newswire releases
-
+ 
 on:
   schedule:
     # Every 30 minutes, all day (UTC). ~48 runs/day, well under the free tier.
     - cron: "*/30 * * * *"
     # Every 15 minutes during the busiest U.S. pre-market hours (06:00-09:00 ET,
-    # 10:00-14:00 UTC; the extra hour covers daylight-saving shifts).
+    # 10:00-14:00 UTC; the extra hour covers daylight-saving shifts)...
     - cron: "*/15 10-14 * * 1-5"
+    # ...and the after-close release wave (16:00-18:30 ET, 20:00-23:00 UTC).
+    - cron: "*/15 20-23 * * 1-5"
   workflow_dispatch:
-
+ 
 permissions:
   contents: write
-
+ 
 concurrency:
   group: collect
   cancel-in-progress: false
-
+ 
 jobs:
   collect:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
-
+ 
       - name: Collect
         run: python3 collector.py
-
+ 
       - name: Commit
         run: |
           git config user.name "wire-collector"
@@ -37,3 +39,5 @@ jobs:
             git commit -m "collect $(date -u +%Y-%m-%dT%H:%MZ)"
             git push
           fi
+ 
+Claude finished the response
