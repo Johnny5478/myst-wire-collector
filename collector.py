@@ -20,12 +20,6 @@ Claude
 
 
 
-
-
-
-
-
-
 Collector · PY
 #!/usr/bin/env python3
 """
@@ -69,13 +63,14 @@ FEEDS = [
     ("PR Newswire", f"https://www.prnewswire.com/rss/{c}-latest-news/{c}-latest-news-list.rss") for c in PRN_CATEGORIES
 ] + [
     ("GlobeNewswire", "https://www.globenewswire.com/RssFeed/orgclass/1/feedTitle/GlobeNewswire%20-%20News%20about%20Public%20Companies"),
+    ("GlobeNewswire", "https://www.globenewswire.com/RssFeed/country/United%20States/feedTitle/GlobeNewswire%20-%20News%20from%20United%20States"),
     ("Business Wire", "https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeEFpRXg=="),
-    ("ACCESS Newswire", "https://www.accessnewswire.com/rss/latest"),
+    ("ACCESS Newswire", "https://www.accesswire.com/rssfeed.aspx"),
 ]
-# If a feed URL above stops working, alternates are tried in order.
+# If a feed URL above fails, these are tried in order (status.json shows which one worked).
 ALTERNATES = {
-    "ACCESS Newswire": ["https://www.accesswire.com/rss/latest", "https://www.accessnewswire.com/newsroom/rss"],
-    "GlobeNewswire": ["https://www.globenewswire.com/RssFeed/country/United%20States/feedTitle/GlobeNewswire%20-%20News%20from%20United%20States"],
+    "ACCESS Newswire": ["https://www.accessnewswire.com/rssfeed.aspx", "https://www.accessnewswire.com/newsroom/rss",
+                        "https://www.accesswire.com/newsroom/rss", "https://www.accessnewswire.com/rss/latest"],
 }
 RETAIN_HOURS = int(os.environ.get("RETAIN_HOURS", "36"))
 SUMMARY_CHARS = 600
