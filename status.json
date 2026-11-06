@@ -1,0 +1,42 @@
+{
+  "ranAt": "2026-11-06T02:53:41Z",
+  "feeds": [
+    {
+      "name": "PR Newswire",
+      "url": "https://www.prnewswire.com/rss/news-releases-list.rss",
+      "status": "ok",
+      "items": 20,
+      "new": 20,
+      "error": null
+    },
+    {
+      "name": "GlobeNewswire",
+      "url": "https://www.globenewswire.com/RssFeed/orgclass/1/feedTitle/GlobeNewswire%20-%20News%20about%20Public%20Companies",
+      "status": "ok",
+      "items": 20,
+      "new": 20,
+      "error": null
+    },
+    {
+      "name": "Business Wire",
+      "url": "https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeEFpRXg==",
+      "status": "ok",
+      "items": 1208,
+      "new": 1208,
+      "error": null
+    },
+    {
+      "name": "ACCESS Newswire",
+      "url": "https://www.accessnewswire.com/rss/latest",
+      "status": "error",
+      "items": 0,
+      "new": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    }
+  ],
+  "retainHours": 36,
+  "itemsStored": 1248,
+  "newThisRun": 1248,
+  "newest": "2026-11-06T02:43:00Z",
+  "oldest": "2026-11-05T02:52:00Z"
+}
