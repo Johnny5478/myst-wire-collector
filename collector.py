@@ -53,20 +53,27 @@ RETAIN_HOURS = int(os.environ.get("RETAIN_HOURS", "36"))
 SUMMARY_CHARS = 600
 ITEMS_FILE = "items.json"
 STATUS_FILE = "status.json"
-# Some wires (GlobeNewswire, ACCESS) answer 403 to anything that doesn't look
-# like a browser, so send browser-like headers.
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
-    "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, text/xml;q=0.9, */*;q=0.8",
-    "Accept-Language": "en-US,en;q=0.9",
-    "Cache-Control": "no-cache",
-}
+# Wires differ in what they accept: GlobeNewswire answers a plain feed-reader
+# identity but 403s a browser-like one; others are the reverse. Try both.
+HEADER_SETS = [
+    {"User-Agent": "Mozilla/5.0 (compatible; myst-wire-collector/1.0)",
+     "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*"},
+    {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+     "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, text/xml;q=0.9, */*;q=0.8",
+     "Accept-Language": "en-US,en;q=0.9", "Cache-Control": "no-cache"},
+]
 
 
 def fetch(url, timeout=25):
-    req = urllib.request.Request(url, headers=HEADERS)
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read()
+    last = None
+    for headers in HEADER_SETS:
+        try:
+            req = urllib.request.Request(url, headers=headers)
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return r.read()
+        except Exception as e:
+            last = e
+    raise last
 
 
 def strip_html(s):
@@ -161,7 +168,12 @@ def main():
         parsed = None
         for u in urls:
             try:
-                parsed = parse_feed(fetch(u), name)
+                got = parse_feed(fetch(u), name)
+                if not got:
+                    # A 200 with no items is a web page, not a feed — try the next address.
+                    row["error"] = "no items in response (not a feed?)"
+                    continue
+                parsed = got
                 row["url"] = u
                 break
             except Exception as e:
