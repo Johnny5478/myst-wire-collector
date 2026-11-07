@@ -1,12 +1,12 @@
 {
-  "ranAt": "2026-11-07T08:42:24Z",
+  "ranAt": "2026-11-07T09:37:49Z",
   "feeds": [
     {
       "name": "PR Newswire",
       "url": "https://www.prnewswire.com/rss/news-releases-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 1,
+      "new": 0,
       "error": null
     },
     {
@@ -177,7 +177,7 @@
       "feeds": 17,
       "ok": 17,
       "items": 340,
-      "new": 1,
+      "new": 0,
       "lastError": null
     },
     {
@@ -205,8 +205,8 @@
       "lastError": "HTTPError: HTTP Error 404: Not Found"
     }
   ],
-  "itemsStored": 1858,
-  "newThisRun": 1,
+  "itemsStored": 1637,
+  "newThisRun": 0,
   "newest": "2026-11-07T08:26:00Z",
-  "oldest": "2026-11-05T20:47:00Z"
+  "oldest": "2026-11-05T21:38:00Z"
 }
