@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-07T11:27:00Z",
+  "ranAt": "2026-11-07T12:06:45Z",
   "feeds": [
     {
       "name": "PR Newswire",
@@ -134,7 +134,7 @@
       "url": "https://www.prnewswire.com/rss/travel-latest-news/travel-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 0,
+      "new": 1,
       "error": null
     },
     {
@@ -150,7 +150,7 @@
       "url": "https://www.globenewswire.com/RssFeed/country/United%20States/feedTitle/GlobeNewswire%20-%20News%20from%20United%20States",
       "status": "ok",
       "items": 20,
-      "new": 2,
+      "new": 0,
       "error": null
     },
     {
@@ -177,7 +177,7 @@
       "feeds": 17,
       "ok": 17,
       "items": 340,
-      "new": 0,
+      "new": 1,
       "lastError": null
     },
     {
@@ -185,7 +185,7 @@
       "feeds": 2,
       "ok": 2,
       "items": 40,
-      "new": 2,
+      "new": 0,
       "lastError": null
     },
     {
@@ -205,8 +205,8 @@
       "lastError": "HTTPError: HTTP Error 404: Not Found"
     }
   ],
-  "itemsStored": 1523,
-  "newThisRun": 2,
+  "itemsStored": 1494,
+  "newThisRun": 1,
   "newest": "2026-11-07T11:07:00Z",
-  "oldest": "2026-11-05T23:27:00Z"
+  "oldest": "2026-11-06T00:07:00Z"
 }
