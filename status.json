@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-07T05:39:32Z",
+  "ranAt": "2026-11-07T06:43:10Z",
   "feeds": [
     {
       "name": "PR Newswire",
@@ -142,7 +142,7 @@
       "url": "https://www.globenewswire.com/RssFeed/orgclass/1/feedTitle/GlobeNewswire%20-%20News%20about%20Public%20Companies",
       "status": "ok",
       "items": 20,
-      "new": 5,
+      "new": 0,
       "error": null
     },
     {
@@ -185,7 +185,7 @@
       "feeds": 2,
       "ok": 2,
       "items": 40,
-      "new": 5,
+      "new": 0,
       "lastError": null
     },
     {
@@ -205,8 +205,8 @@
       "lastError": "HTTPError: HTTP Error 404: Not Found"
     }
   ],
-  "itemsStored": 1993,
-  "newThisRun": 5,
+  "itemsStored": 1937,
+  "newThisRun": 0,
   "newest": "2026-11-07T05:17:00Z",
-  "oldest": "2026-11-05T17:40:00Z"
+  "oldest": "2026-11-05T18:45:00Z"
 }
