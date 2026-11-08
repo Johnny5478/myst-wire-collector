@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-08T07:51:33Z",
+  "ranAt": "2026-11-08T08:41:47Z",
   "feeds": [
     {
       "name": "PR Newswire",
@@ -30,7 +30,7 @@
       "url": "https://www.prnewswire.com/rss/consumer-products-retail-latest-news/consumer-products-retail-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 5,
+      "new": 7,
       "error": null
     },
     {
@@ -54,7 +54,7 @@
       "url": "https://www.prnewswire.com/rss/entertainment-media-latest-news/entertainment-media-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 6,
+      "new": 5,
       "error": null
     },
     {
@@ -70,7 +70,7 @@
       "url": "https://www.prnewswire.com/rss/financial-services-latest-news/financial-services-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 0,
+      "new": 1,
       "error": null
     },
     {
@@ -86,7 +86,7 @@
       "url": "https://www.prnewswire.com/rss/heavy-industry-manufacturing-latest-news/heavy-industry-manufacturing-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 0,
+      "new": 1,
       "error": null
     },
     {
@@ -110,7 +110,7 @@
       "url": "https://www.prnewswire.com/rss/policy-public-interest-latest-news/policy-public-interest-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 7,
+      "new": 8,
       "error": null
     },
     {
@@ -177,7 +177,7 @@
       "feeds": 17,
       "ok": 17,
       "items": 340,
-      "new": 95,
+      "new": 99,
       "lastError": null
     },
     {
@@ -205,8 +205,8 @@
       "lastError": "HTTPError: HTTP Error 404: Not Found"
     }
   ],
-  "itemsStored": 362,
-  "newThisRun": 95,
-  "newest": "2026-11-08T07:00:00Z",
-  "oldest": "2026-11-06T19:53:00Z"
+  "itemsStored": 327,
+  "newThisRun": 99,
+  "newest": "2026-11-08T08:00:00Z",
+  "oldest": "2026-11-06T20:42:00Z"
 }
