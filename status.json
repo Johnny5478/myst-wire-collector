@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-08T02:43:45Z",
+  "ranAt": "2026-11-08T03:43:00Z",
   "feeds": [
     {
       "name": "PR Newswire",
@@ -22,7 +22,7 @@
       "url": "https://www.prnewswire.com/rss/business-technology-latest-news/business-technology-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 1,
+      "new": 0,
       "error": null
     },
     {
@@ -62,7 +62,7 @@
       "url": "https://www.prnewswire.com/rss/environment-latest-news/environment-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 8,
+      "new": 9,
       "error": null
     },
     {
@@ -110,7 +110,7 @@
       "url": "https://www.prnewswire.com/rss/policy-public-interest-latest-news/policy-public-interest-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 0,
+      "new": 1,
       "error": null
     },
     {
@@ -118,7 +118,7 @@
       "url": "https://www.prnewswire.com/rss/sports-latest-news/sports-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 7,
+      "new": 10,
       "error": null
     },
     {
@@ -126,7 +126,7 @@
       "url": "https://www.prnewswire.com/rss/telecommunications-latest-news/telecommunications-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 5,
+      "new": 9,
       "error": null
     },
     {
@@ -134,7 +134,7 @@
       "url": "https://www.prnewswire.com/rss/travel-latest-news/travel-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 6,
+      "new": 9,
       "error": null
     },
     {
@@ -150,7 +150,7 @@
       "url": "https://www.globenewswire.com/RssFeed/country/United%20States/feedTitle/GlobeNewswire%20-%20News%20from%20United%20States",
       "status": "ok",
       "items": 20,
-      "new": 1,
+      "new": 0,
       "error": null
     },
     {
@@ -177,7 +177,7 @@
       "feeds": 17,
       "ok": 17,
       "items": 340,
-      "new": 27,
+      "new": 38,
       "lastError": null
     },
     {
@@ -185,7 +185,7 @@
       "feeds": 2,
       "ok": 2,
       "items": 40,
-      "new": 1,
+      "new": 0,
       "lastError": null
     },
     {
@@ -205,8 +205,8 @@
       "lastError": "HTTPError: HTTP Error 404: Not Found"
     }
   ],
-  "itemsStored": 726,
-  "newThisRun": 28,
+  "itemsStored": 609,
+  "newThisRun": 38,
   "newest": "2026-11-08T02:41:00Z",
-  "oldest": "2026-11-06T14:44:00Z"
+  "oldest": "2026-11-06T15:43:00Z"
 }
