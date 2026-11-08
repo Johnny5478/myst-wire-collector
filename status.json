@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-08T04:43:30Z",
+  "ranAt": "2026-11-08T05:41:02Z",
   "feeds": [
     {
       "name": "PR Newswire",
@@ -102,7 +102,7 @@
       "url": "https://www.prnewswire.com/rss/multicultural-latest-news/multicultural-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 0,
+      "new": 5,
       "error": null
     },
     {
@@ -110,7 +110,7 @@
       "url": "https://www.prnewswire.com/rss/policy-public-interest-latest-news/policy-public-interest-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 5,
+      "new": 7,
       "error": null
     },
     {
@@ -118,7 +118,7 @@
       "url": "https://www.prnewswire.com/rss/sports-latest-news/sports-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 11,
+      "new": 12,
       "error": null
     },
     {
@@ -126,7 +126,7 @@
       "url": "https://www.prnewswire.com/rss/telecommunications-latest-news/telecommunications-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 13,
+      "new": 16,
       "error": null
     },
     {
@@ -134,7 +134,7 @@
       "url": "https://www.prnewswire.com/rss/travel-latest-news/travel-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 9,
+      "new": 10,
       "error": null
     },
     {
@@ -157,8 +157,8 @@
       "name": "Business Wire",
       "url": "https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeEFpRXg==",
       "status": "ok",
-      "items": 26,
-      "new": 0,
+      "items": 27,
+      "new": 9,
       "error": null
     },
     {
@@ -177,7 +177,7 @@
       "feeds": 17,
       "ok": 17,
       "items": 340,
-      "new": 51,
+      "new": 63,
       "lastError": null
     },
     {
@@ -192,8 +192,8 @@
       "name": "Business Wire",
       "feeds": 1,
       "ok": 1,
-      "items": 26,
-      "new": 0,
+      "items": 27,
+      "new": 9,
       "lastError": null
     },
     {
@@ -205,8 +205,8 @@
       "lastError": "HTTPError: HTTP Error 404: Not Found"
     }
   ],
-  "itemsStored": 539,
-  "newThisRun": 51,
-  "newest": "2026-11-08T04:00:00Z",
-  "oldest": "2026-11-06T16:45:00Z"
+  "itemsStored": 463,
+  "newThisRun": 72,
+  "newest": "2026-11-08T05:05:00Z",
+  "oldest": "2026-11-06T17:44:00Z"
 }
