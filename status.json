@@ -1,17 +1,9 @@
 {
-  "ranAt": "2026-11-09T11:46:47Z",
+  "ranAt": "2026-11-09T11:47:53Z",
   "feeds": [
     {
       "name": "PR Newswire",
       "url": "https://www.prnewswire.com/rss/news-releases-list.rss",
-      "status": "ok",
-      "items": 20,
-      "new": 20,
-      "error": null
-    },
-    {
-      "name": "PR Newswire",
-      "url": "https://www.prnewswire.com/rss/automotive-transportation-latest-news/automotive-transportation-latest-news-list.rss",
       "status": "ok",
       "items": 20,
       "new": 0,
@@ -19,10 +11,18 @@
     },
     {
       "name": "PR Newswire",
-      "url": "https://www.prnewswire.com/rss/business-technology-latest-news/business-technology-latest-news-list.rss",
+      "url": "https://www.prnewswire.com/rss/automotive-transportation-latest-news/automotive-transportation-latest-news-list.rss",
       "status": "ok",
       "items": 20,
       "new": 1,
+      "error": null
+    },
+    {
+      "name": "PR Newswire",
+      "url": "https://www.prnewswire.com/rss/business-technology-latest-news/business-technology-latest-news-list.rss",
+      "status": "ok",
+      "items": 20,
+      "new": 0,
       "error": null
     },
     {
@@ -46,7 +46,7 @@
       "url": "https://www.prnewswire.com/rss/energy-latest-news/energy-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 2,
+      "new": 0,
       "error": null
     },
     {
@@ -70,7 +70,7 @@
       "url": "https://www.prnewswire.com/rss/financial-services-latest-news/financial-services-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 9,
+      "new": 8,
       "error": null
     },
     {
@@ -142,7 +142,7 @@
       "url": "https://www.globenewswire.com/RssFeed/orgclass/1/feedTitle/GlobeNewswire%20-%20News%20about%20Public%20Companies",
       "status": "ok",
       "items": 20,
-      "new": 20,
+      "new": 0,
       "error": null
     },
     {
@@ -150,7 +150,7 @@
       "url": "https://www.globenewswire.com/RssFeed/country/United%20States/feedTitle/GlobeNewswire%20-%20News%20from%20United%20States",
       "status": "ok",
       "items": 20,
-      "new": 12,
+      "new": 0,
       "error": null
     },
     {
@@ -158,7 +158,7 @@
       "url": "https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeEFpRXg==",
       "status": "ok",
       "items": 130,
-      "new": 31,
+      "new": 0,
       "error": null
     },
     {
@@ -177,7 +177,7 @@
       "feeds": 17,
       "ok": 17,
       "items": 340,
-      "new": 80,
+      "new": 57,
       "lastError": null
     },
     {
@@ -185,7 +185,7 @@
       "feeds": 2,
       "ok": 2,
       "items": 40,
-      "new": 32,
+      "new": 0,
       "lastError": null
     },
     {
@@ -193,7 +193,7 @@
       "feeds": 1,
       "ok": 1,
       "items": 130,
-      "new": 31,
+      "new": 0,
       "lastError": null
     },
     {
@@ -205,8 +205,8 @@
       "lastError": "HTTPError: HTTP Error 404: Not Found"
     }
   ],
-  "itemsStored": 477,
-  "newThisRun": 143,
-  "newest": "2026-11-09T11:45:00Z",
+  "itemsStored": 478,
+  "newThisRun": 57,
+  "newest": "2026-11-09T11:46:00Z",
   "oldest": "2026-11-07T23:54:00Z"
 }
