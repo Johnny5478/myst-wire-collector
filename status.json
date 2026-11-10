@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-10T13:35:46Z",
+  "ranAt": "2026-11-10T13:51:38Z",
   "feeds": [
     {
       "name": "PR Newswire",
@@ -14,7 +14,7 @@
       "url": "https://www.prnewswire.com/rss/automotive-transportation-latest-news/automotive-transportation-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 17,
+      "new": 5,
       "error": null
     },
     {
@@ -30,7 +30,7 @@
       "url": "https://www.prnewswire.com/rss/consumer-products-retail-latest-news/consumer-products-retail-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 14,
+      "new": 2,
       "error": null
     },
     {
@@ -38,7 +38,7 @@
       "url": "https://www.prnewswire.com/rss/consumer-technology-latest-news/consumer-technology-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 5,
+      "new": 1,
       "error": null
     },
     {
@@ -46,7 +46,7 @@
       "url": "https://www.prnewswire.com/rss/energy-latest-news/energy-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 15,
+      "new": 1,
       "error": null
     },
     {
@@ -54,7 +54,7 @@
       "url": "https://www.prnewswire.com/rss/entertainment-media-latest-news/entertainment-media-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 12,
+      "new": 3,
       "error": null
     },
     {
@@ -62,7 +62,7 @@
       "url": "https://www.prnewswire.com/rss/environment-latest-news/environment-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 3,
+      "new": 0,
       "error": null
     },
     {
@@ -70,7 +70,7 @@
       "url": "https://www.prnewswire.com/rss/financial-services-latest-news/financial-services-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 12,
+      "new": 1,
       "error": null
     },
     {
@@ -78,7 +78,7 @@
       "url": "https://www.prnewswire.com/rss/general-business-latest-news/general-business-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 1,
+      "new": 0,
       "error": null
     },
     {
@@ -86,7 +86,7 @@
       "url": "https://www.prnewswire.com/rss/heavy-industry-manufacturing-latest-news/heavy-industry-manufacturing-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 3,
+      "new": 0,
       "error": null
     },
     {
@@ -94,7 +94,7 @@
       "url": "https://www.prnewswire.com/rss/health-latest-news/health-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 14,
+      "new": 5,
       "error": null
     },
     {
@@ -102,7 +102,7 @@
       "url": "https://www.prnewswire.com/rss/multicultural-latest-news/multicultural-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 11,
+      "new": 0,
       "error": null
     },
     {
@@ -110,7 +110,7 @@
       "url": "https://www.prnewswire.com/rss/policy-public-interest-latest-news/policy-public-interest-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 7,
+      "new": 1,
       "error": null
     },
     {
@@ -118,7 +118,7 @@
       "url": "https://www.prnewswire.com/rss/sports-latest-news/sports-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 1,
+      "new": 0,
       "error": null
     },
     {
@@ -126,7 +126,7 @@
       "url": "https://www.prnewswire.com/rss/telecommunications-latest-news/telecommunications-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 10,
+      "new": 1,
       "error": null
     },
     {
@@ -134,31 +134,31 @@
       "url": "https://www.prnewswire.com/rss/travel-latest-news/travel-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 2,
+      "new": 0,
       "error": null
     },
     {
       "name": "GlobeNewswire",
       "url": "https://www.globenewswire.com/RssFeed/orgclass/1/feedTitle/GlobeNewswire%20-%20News%20about%20Public%20Companies",
-      "status": "error",
-      "items": 0,
-      "new": 0,
-      "error": "no items in response (not a feed?)"
+      "status": "ok",
+      "items": 20,
+      "new": 7,
+      "error": null
     },
     {
       "name": "GlobeNewswire",
       "url": "https://www.globenewswire.com/RssFeed/country/United%20States/feedTitle/GlobeNewswire%20-%20News%20from%20United%20States",
       "status": "ok",
       "items": 20,
-      "new": 20,
+      "new": 6,
       "error": null
     },
     {
       "name": "Business Wire",
       "url": "https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeEFpRXg==",
       "status": "ok",
-      "items": 887,
-      "new": 124,
+      "items": 891,
+      "new": 25,
       "error": null
     },
     {
@@ -177,23 +177,23 @@
       "feeds": 17,
       "ok": 17,
       "items": 340,
-      "new": 158,
+      "new": 51,
       "lastError": null
     },
     {
       "name": "GlobeNewswire",
       "feeds": 2,
-      "ok": 1,
-      "items": 20,
-      "new": 20,
-      "lastError": "no items in response (not a feed?)"
+      "ok": 2,
+      "items": 40,
+      "new": 13,
+      "lastError": null
     },
     {
       "name": "Business Wire",
       "feeds": 1,
       "ok": 1,
-      "items": 887,
-      "new": 124,
+      "items": 891,
+      "new": 25,
       "lastError": null
     },
     {
@@ -205,8 +205,8 @@
       "lastError": "HTTPError: HTTP Error 404: Not Found"
     }
   ],
-  "itemsStored": 2964,
-  "newThisRun": 302,
-  "newest": "2026-11-10T13:35:00Z",
-  "oldest": "2026-11-09T01:38:00Z"
+  "itemsStored": 3051,
+  "newThisRun": 89,
+  "newest": "2026-11-10T13:51:00Z",
+  "oldest": "2026-11-09T01:55:00Z"
 }
