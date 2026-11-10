@@ -1,12 +1,12 @@
 {
-  "ranAt": "2026-11-10T03:41:16Z",
+  "ranAt": "2026-11-10T04:43:36Z",
   "feeds": [
     {
       "name": "PR Newswire",
       "url": "https://www.prnewswire.com/rss/news-releases-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 5,
+      "new": 2,
       "error": null
     },
     {
@@ -142,7 +142,7 @@
       "url": "https://www.globenewswire.com/RssFeed/orgclass/1/feedTitle/GlobeNewswire%20-%20News%20about%20Public%20Companies",
       "status": "ok",
       "items": 20,
-      "new": 2,
+      "new": 0,
       "error": null
     },
     {
@@ -150,7 +150,7 @@
       "url": "https://www.globenewswire.com/RssFeed/country/United%20States/feedTitle/GlobeNewswire%20-%20News%20from%20United%20States",
       "status": "ok",
       "items": 20,
-      "new": 0,
+      "new": 3,
       "error": null
     },
     {
@@ -177,7 +177,7 @@
       "feeds": 17,
       "ok": 17,
       "items": 340,
-      "new": 5,
+      "new": 2,
       "lastError": null
     },
     {
@@ -185,7 +185,7 @@
       "feeds": 2,
       "ok": 2,
       "items": 40,
-      "new": 2,
+      "new": 3,
       "lastError": null
     },
     {
@@ -205,8 +205,8 @@
       "lastError": "HTTPError: HTTP Error 404: Not Found"
     }
   ],
-  "itemsStored": 2136,
-  "newThisRun": 9,
-  "newest": "2026-11-10T03:36:00Z",
-  "oldest": "2026-11-08T16:00:00Z"
+  "itemsStored": 2139,
+  "newThisRun": 7,
+  "newest": "2026-11-10T04:38:00Z",
+  "oldest": "2026-11-08T16:48:00Z"
 }
