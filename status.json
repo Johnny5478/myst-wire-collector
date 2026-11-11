@@ -1,12 +1,12 @@
 {
-  "ranAt": "2026-11-11T09:23:45Z",
+  "ranAt": "2026-11-11T10:25:59Z",
   "feeds": [
     {
       "name": "PR Newswire",
       "url": "https://www.prnewswire.com/rss/news-releases-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 20,
+      "new": 14,
       "error": null
     },
     {
@@ -14,7 +14,7 @@
       "url": "https://www.prnewswire.com/rss/automotive-transportation-latest-news/automotive-transportation-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 1,
+      "new": 0,
       "error": null
     },
     {
@@ -22,7 +22,7 @@
       "url": "https://www.prnewswire.com/rss/business-technology-latest-news/business-technology-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 1,
+      "new": 0,
       "error": null
     },
     {
@@ -150,15 +150,15 @@
       "url": "https://www.globenewswire.com/RssFeed/country/United%20States/feedTitle/GlobeNewswire%20-%20News%20from%20United%20States",
       "status": "ok",
       "items": 20,
-      "new": 2,
+      "new": 3,
       "error": null
     },
     {
       "name": "Business Wire",
       "url": "https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeEFpRXg==",
       "status": "ok",
-      "items": 996,
-      "new": 13,
+      "items": 992,
+      "new": 8,
       "error": null
     },
     {
@@ -177,7 +177,7 @@
       "feeds": 17,
       "ok": 17,
       "items": 340,
-      "new": 22,
+      "new": 14,
       "lastError": null
     },
     {
@@ -185,15 +185,15 @@
       "feeds": 2,
       "ok": 2,
       "items": 40,
-      "new": 5,
+      "new": 6,
       "lastError": null
     },
     {
       "name": "Business Wire",
       "feeds": 1,
       "ok": 1,
-      "items": 996,
-      "new": 13,
+      "items": 992,
+      "new": 8,
       "lastError": null
     },
     {
@@ -205,8 +205,8 @@
       "lastError": "HTTPError: HTTP Error 404: Not Found"
     }
   ],
-  "itemsStored": 3176,
-  "newThisRun": 40,
-  "newest": "2026-11-11T09:19:00Z",
-  "oldest": "2026-11-09T21:24:00Z"
+  "itemsStored": 3084,
+  "newThisRun": 28,
+  "newest": "2026-11-11T10:24:00Z",
+  "oldest": "2026-11-09T22:26:00Z"
 }
