@@ -1,12 +1,12 @@
 {
-  "ranAt": "2026-11-13T04:49:43Z",
+  "ranAt": "2026-11-13T05:51:15Z",
   "feeds": [
     {
       "name": "PR Newswire",
       "url": "https://www.prnewswire.com/rss/news-releases-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 6,
+      "new": 9,
       "error": null
     },
     {
@@ -157,8 +157,8 @@
       "name": "Business Wire",
       "url": "https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeEFpRXg==",
       "status": "ok",
-      "items": 905,
-      "new": 1,
+      "items": 902,
+      "new": 3,
       "error": null
     },
     {
@@ -177,7 +177,7 @@
       "feeds": 17,
       "ok": 17,
       "items": 340,
-      "new": 6,
+      "new": 9,
       "lastError": null
     },
     {
@@ -192,8 +192,8 @@
       "name": "Business Wire",
       "feeds": 1,
       "ok": 1,
-      "items": 905,
-      "new": 1,
+      "items": 902,
+      "new": 3,
       "lastError": null
     },
     {
@@ -205,8 +205,8 @@
       "lastError": "HTTPError: HTTP Error 404: Not Found"
     }
   ],
-  "itemsStored": 3021,
-  "newThisRun": 8,
-  "newest": "2026-11-13T04:40:00Z",
-  "oldest": "2026-11-11T16:50:00Z"
+  "itemsStored": 2931,
+  "newThisRun": 13,
+  "newest": "2026-11-13T05:30:00Z",
+  "oldest": "2026-11-11T17:52:00Z"
 }
