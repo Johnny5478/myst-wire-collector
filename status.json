@@ -1,12 +1,12 @@
 {
-  "ranAt": "2026-11-13T11:25:15Z",
+  "ranAt": "2026-11-13T11:47:40Z",
   "feeds": [
     {
       "name": "PR Newswire",
       "url": "https://www.prnewswire.com/rss/news-releases-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 13,
+      "new": 7,
       "error": null
     },
     {
@@ -38,7 +38,7 @@
       "url": "https://www.prnewswire.com/rss/consumer-technology-latest-news/consumer-technology-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 1,
+      "new": 0,
       "error": null
     },
     {
@@ -142,7 +142,7 @@
       "url": "https://www.globenewswire.com/RssFeed/orgclass/1/feedTitle/GlobeNewswire%20-%20News%20about%20Public%20Companies",
       "status": "ok",
       "items": 20,
-      "new": 10,
+      "new": 6,
       "error": null
     },
     {
@@ -150,14 +150,14 @@
       "url": "https://www.globenewswire.com/RssFeed/country/United%20States/feedTitle/GlobeNewswire%20-%20News%20from%20United%20States",
       "status": "ok",
       "items": 20,
-      "new": 1,
+      "new": 13,
       "error": null
     },
     {
       "name": "Business Wire",
       "url": "https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeEFpRXg==",
       "status": "ok",
-      "items": 857,
+      "items": 845,
       "new": 10,
       "error": null
     },
@@ -177,7 +177,7 @@
       "feeds": 17,
       "ok": 17,
       "items": 340,
-      "new": 14,
+      "new": 7,
       "lastError": null
     },
     {
@@ -185,14 +185,14 @@
       "feeds": 2,
       "ok": 2,
       "items": 40,
-      "new": 11,
+      "new": 19,
       "lastError": null
     },
     {
       "name": "Business Wire",
       "feeds": 1,
       "ok": 1,
-      "items": 857,
+      "items": 845,
       "new": 10,
       "lastError": null
     },
@@ -205,8 +205,8 @@
       "lastError": "HTTPError: HTTP Error 404: Not Found"
     }
   ],
-  "itemsStored": 2780,
-  "newThisRun": 35,
-  "newest": "2026-11-13T11:22:00Z",
-  "oldest": "2026-11-11T23:30:00Z"
+  "itemsStored": 2805,
+  "newThisRun": 36,
+  "newest": "2026-11-13T11:45:00Z",
+  "oldest": "2026-11-11T23:49:00Z"
 }
