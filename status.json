@@ -1,12 +1,12 @@
 {
-  "ranAt": "2026-11-14T08:41:22Z",
+  "ranAt": "2026-11-14T09:37:15Z",
   "feeds": [
     {
       "name": "PR Newswire",
       "url": "https://www.prnewswire.com/rss/news-releases-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 1,
+      "new": 0,
       "error": null
     },
     {
@@ -142,7 +142,7 @@
       "url": "https://www.globenewswire.com/RssFeed/orgclass/1/feedTitle/GlobeNewswire%20-%20News%20about%20Public%20Companies",
       "status": "ok",
       "items": 20,
-      "new": 0,
+      "new": 12,
       "error": null
     },
     {
@@ -150,16 +150,16 @@
       "url": "https://www.globenewswire.com/RssFeed/country/United%20States/feedTitle/GlobeNewswire%20-%20News%20from%20United%20States",
       "status": "ok",
       "items": 20,
-      "new": 0,
+      "new": 1,
       "error": null
     },
     {
       "name": "Business Wire",
       "url": "https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeEFpRXg==",
-      "status": "error",
-      "items": 0,
+      "status": "ok",
+      "items": 442,
       "new": 0,
-      "error": "TimeoutError: The read operation timed out"
+      "error": null
     },
     {
       "name": "ACCESS Newswire",
@@ -177,7 +177,7 @@
       "feeds": 17,
       "ok": 17,
       "items": 340,
-      "new": 1,
+      "new": 0,
       "lastError": null
     },
     {
@@ -185,16 +185,16 @@
       "feeds": 2,
       "ok": 2,
       "items": 40,
-      "new": 0,
+      "new": 13,
       "lastError": null
     },
     {
       "name": "Business Wire",
       "feeds": 1,
-      "ok": 0,
-      "items": 0,
+      "ok": 1,
+      "items": 442,
       "new": 0,
-      "lastError": "TimeoutError: The read operation timed out"
+      "lastError": null
     },
     {
       "name": "ACCESS Newswire",
@@ -205,8 +205,8 @@
       "lastError": "HTTPError: HTTP Error 404: Not Found"
     }
   ],
-  "itemsStored": 1740,
-  "newThisRun": 1,
-  "newest": "2026-11-14T08:00:00Z",
-  "oldest": "2026-11-12T20:42:00Z"
+  "itemsStored": 1563,
+  "newThisRun": 13,
+  "newest": "2026-11-14T09:14:00Z",
+  "oldest": "2026-11-12T21:43:00Z"
 }
