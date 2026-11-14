@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-14T06:45:46Z",
+  "ranAt": "2026-11-14T07:52:33Z",
   "feeds": [
     {
       "name": "PR Newswire",
@@ -142,7 +142,7 @@
       "url": "https://www.globenewswire.com/RssFeed/orgclass/1/feedTitle/GlobeNewswire%20-%20News%20about%20Public%20Companies",
       "status": "ok",
       "items": 20,
-      "new": 0,
+      "new": 1,
       "error": null
     },
     {
@@ -159,7 +159,7 @@
       "status": "error",
       "items": 0,
       "new": 0,
-      "error": "ParseError: not well-formed (invalid token): line 60, column 141"
+      "error": "TimeoutError: The read operation timed out"
     },
     {
       "name": "ACCESS Newswire",
@@ -185,7 +185,7 @@
       "feeds": 2,
       "ok": 2,
       "items": 40,
-      "new": 1,
+      "new": 2,
       "lastError": null
     },
     {
@@ -194,7 +194,7 @@
       "ok": 0,
       "items": 0,
       "new": 0,
-      "lastError": "ParseError: not well-formed (invalid token): line 60, column 141"
+      "lastError": "TimeoutError: The read operation timed out"
     },
     {
       "name": "ACCESS Newswire",
@@ -205,8 +205,8 @@
       "lastError": "HTTPError: HTTP Error 404: Not Found"
     }
   ],
-  "itemsStored": 1899,
-  "newThisRun": 2,
-  "newest": "2026-11-14T06:40:00Z",
-  "oldest": "2026-11-12T18:46:00Z"
+  "itemsStored": 1802,
+  "newThisRun": 3,
+  "newest": "2026-11-14T07:40:00Z",
+  "oldest": "2026-11-12T19:53:00Z"
 }
