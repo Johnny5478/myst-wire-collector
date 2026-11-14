@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-14T15:08:32Z",
+  "ranAt": "2026-11-14T16:08:04Z",
   "feeds": [
     {
       "name": "PR Newswire",
@@ -150,7 +150,7 @@
       "url": "https://www.globenewswire.com/RssFeed/country/United%20States/feedTitle/GlobeNewswire%20-%20News%20from%20United%20States",
       "status": "ok",
       "items": 20,
-      "new": 7,
+      "new": 9,
       "error": null
     },
     {
@@ -185,7 +185,7 @@
       "feeds": 2,
       "ok": 2,
       "items": 40,
-      "new": 7,
+      "new": 9,
       "lastError": null
     },
     {
@@ -205,8 +205,8 @@
       "lastError": "HTTPError: HTTP Error 404: Not Found"
     }
   ],
-  "itemsStored": 1394,
-  "newThisRun": 10,
-  "newest": "2026-11-14T15:04:00Z",
-  "oldest": "2026-11-13T03:16:00Z"
+  "itemsStored": 1399,
+  "newThisRun": 12,
+  "newest": "2026-11-14T16:04:00Z",
+  "oldest": "2026-11-13T04:28:00Z"
 }
