@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-15T21:05:46Z",
+  "ranAt": "2026-11-15T22:04:19Z",
   "feeds": [
     {
       "name": "PR Newswire",
@@ -46,7 +46,7 @@
       "url": "https://www.prnewswire.com/rss/energy-latest-news/energy-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 7,
+      "new": 5,
       "error": null
     },
     {
@@ -62,7 +62,7 @@
       "url": "https://www.prnewswire.com/rss/environment-latest-news/environment-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 4,
+      "new": 3,
       "error": null
     },
     {
@@ -70,7 +70,7 @@
       "url": "https://www.prnewswire.com/rss/financial-services-latest-news/financial-services-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 13,
+      "new": 14,
       "error": null
     },
     {
@@ -94,7 +94,7 @@
       "url": "https://www.prnewswire.com/rss/health-latest-news/health-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 2,
+      "new": 1,
       "error": null
     },
     {
@@ -150,14 +150,14 @@
       "url": "https://www.globenewswire.com/RssFeed/country/United%20States/feedTitle/GlobeNewswire%20-%20News%20from%20United%20States",
       "status": "ok",
       "items": 20,
-      "new": 3,
+      "new": 2,
       "error": null
     },
     {
       "name": "Business Wire",
       "url": "https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeEFpRXg==",
       "status": "ok",
-      "items": 7,
+      "items": 8,
       "new": 1,
       "error": null
     },
@@ -177,7 +177,7 @@
       "feeds": 17,
       "ok": 17,
       "items": 340,
-      "new": 100,
+      "new": 97,
       "lastError": null
     },
     {
@@ -185,14 +185,14 @@
       "feeds": 2,
       "ok": 2,
       "items": 40,
-      "new": 7,
+      "new": 6,
       "lastError": null
     },
     {
       "name": "Business Wire",
       "feeds": 1,
       "ok": 1,
-      "items": 7,
+      "items": 8,
       "new": 1,
       "lastError": null
     },
@@ -205,8 +205,8 @@
       "lastError": "HTTPError: HTTP Error 404: Not Found"
     }
   ],
-  "itemsStored": 190,
-  "newThisRun": 108,
-  "newest": "2026-11-15T21:00:00Z",
-  "oldest": "2026-11-14T09:07:00Z"
+  "itemsStored": 182,
+  "newThisRun": 104,
+  "newest": "2026-11-15T21:44:00Z",
+  "oldest": "2026-11-14T10:13:00Z"
 }
