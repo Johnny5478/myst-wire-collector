@@ -1,12 +1,12 @@
 {
-  "ranAt": "2026-11-15T04:23:55Z",
+  "ranAt": "2026-11-15T05:22:00Z",
   "feeds": [
     {
       "name": "PR Newswire",
       "url": "https://www.prnewswire.com/rss/news-releases-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 0,
+      "new": 3,
       "error": null
     },
     {
@@ -62,7 +62,7 @@
       "url": "https://www.prnewswire.com/rss/environment-latest-news/environment-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 9,
+      "new": 8,
       "error": null
     },
     {
@@ -118,7 +118,7 @@
       "url": "https://www.prnewswire.com/rss/sports-latest-news/sports-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 9,
+      "new": 10,
       "error": null
     },
     {
@@ -126,7 +126,7 @@
       "url": "https://www.prnewswire.com/rss/telecommunications-latest-news/telecommunications-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 10,
+      "new": 12,
       "error": null
     },
     {
@@ -134,7 +134,7 @@
       "url": "https://www.prnewswire.com/rss/travel-latest-news/travel-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 8,
+      "new": 10,
       "error": null
     },
     {
@@ -157,8 +157,8 @@
       "name": "Business Wire",
       "url": "https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeEFpRXg==",
       "status": "ok",
-      "items": 23,
-      "new": 2,
+      "items": 20,
+      "new": 1,
       "error": null
     },
     {
@@ -177,7 +177,7 @@
       "feeds": 17,
       "ok": 17,
       "items": 340,
-      "new": 36,
+      "new": 43,
       "lastError": null
     },
     {
@@ -192,8 +192,8 @@
       "name": "Business Wire",
       "feeds": 1,
       "ok": 1,
-      "items": 23,
-      "new": 2,
+      "items": 20,
+      "new": 1,
       "lastError": null
     },
     {
@@ -205,8 +205,8 @@
       "lastError": "HTTPError: HTTP Error 404: Not Found"
     }
   ],
-  "itemsStored": 696,
-  "newThisRun": 38,
-  "newest": "2026-11-15T04:06:00Z",
-  "oldest": "2026-11-13T16:24:00Z"
+  "itemsStored": 599,
+  "newThisRun": 44,
+  "newest": "2026-11-15T05:00:00Z",
+  "oldest": "2026-11-13T17:25:00Z"
 }
