@@ -1,12 +1,12 @@
 {
-  "ranAt": "2026-11-19T22:34:11Z",
+  "ranAt": "2026-11-19T22:40:54Z",
   "feeds": [
     {
       "name": "PR Newswire",
       "url": "https://www.prnewswire.com/rss/news-releases-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 19,
+      "new": 0,
       "error": null
     },
     {
@@ -22,7 +22,7 @@
       "url": "https://www.prnewswire.com/rss/business-technology-latest-news/business-technology-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 1,
+      "new": 0,
       "error": null
     },
     {
@@ -142,7 +142,7 @@
       "url": "https://www.globenewswire.com/RssFeed/orgclass/1/feedTitle/GlobeNewswire%20-%20News%20about%20Public%20Companies",
       "status": "ok",
       "items": 20,
-      "new": 14,
+      "new": 0,
       "error": null
     },
     {
@@ -150,15 +150,15 @@
       "url": "https://www.globenewswire.com/RssFeed/country/United%20States/feedTitle/GlobeNewswire%20-%20News%20from%20United%20States",
       "status": "ok",
       "items": 20,
-      "new": 14,
+      "new": 0,
       "error": null
     },
     {
       "name": "Business Wire",
       "url": "https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeEFpRXg==",
       "status": "ok",
-      "items": 903,
-      "new": 34,
+      "items": 894,
+      "new": 2,
       "error": null
     },
     {
@@ -167,7 +167,7 @@
       "status": "error",
       "items": 0,
       "new": 0,
-      "error": "ConnectionResetError: [Errno 104] Connection reset by peer"
+      "error": "HTTPError: HTTP Error 404: Not Found"
     }
   ],
   "retainHours": 36,
@@ -177,7 +177,7 @@
       "feeds": 17,
       "ok": 17,
       "items": 340,
-      "new": 20,
+      "new": 0,
       "lastError": null
     },
     {
@@ -185,15 +185,15 @@
       "feeds": 2,
       "ok": 2,
       "items": 40,
-      "new": 28,
+      "new": 0,
       "lastError": null
     },
     {
       "name": "Business Wire",
       "feeds": 1,
       "ok": 1,
-      "items": 903,
-      "new": 34,
+      "items": 894,
+      "new": 2,
       "lastError": null
     },
     {
@@ -202,11 +202,11 @@
       "ok": 0,
       "items": 0,
       "new": 0,
-      "lastError": "ConnectionResetError: [Errno 104] Connection reset by peer"
+      "lastError": "HTTPError: HTTP Error 404: Not Found"
     }
   ],
   "itemsStored": 3992,
-  "newThisRun": 82,
+  "newThisRun": 2,
   "newest": "2026-11-19T22:31:00Z",
-  "oldest": "2026-11-18T10:39:00Z"
+  "oldest": "2026-11-18T10:41:00Z"
 }
