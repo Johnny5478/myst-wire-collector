@@ -1,12 +1,12 @@
 {
-  "ranAt": "2026-11-22T21:13:56Z",
+  "ranAt": "2026-11-22T22:11:39Z",
   "feeds": [
     {
       "name": "PR Newswire",
       "url": "https://www.prnewswire.com/rss/news-releases-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 0,
+      "new": 2,
       "error": null
     },
     {
@@ -14,7 +14,7 @@
       "url": "https://www.prnewswire.com/rss/automotive-transportation-latest-news/automotive-transportation-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 6,
+      "new": 5,
       "error": null
     },
     {
@@ -134,7 +134,7 @@
       "url": "https://www.prnewswire.com/rss/travel-latest-news/travel-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 6,
+      "new": 7,
       "error": null
     },
     {
@@ -158,7 +158,7 @@
       "url": "https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeEFpRXg==",
       "status": "ok",
       "items": 40,
-      "new": 12,
+      "new": 0,
       "error": null
     },
     {
@@ -177,7 +177,7 @@
       "feeds": 17,
       "ok": 17,
       "items": 340,
-      "new": 120,
+      "new": 122,
       "lastError": null
     },
     {
@@ -193,7 +193,7 @@
       "feeds": 1,
       "ok": 1,
       "items": 40,
-      "new": 12,
+      "new": 0,
       "lastError": null
     },
     {
@@ -205,8 +205,8 @@
       "lastError": "HTTPError: HTTP Error 404: Not Found"
     }
   ],
-  "itemsStored": 178,
-  "newThisRun": 140,
-  "newest": "2026-11-22T20:52:00Z",
-  "oldest": "2026-11-21T10:00:00Z"
+  "itemsStored": 180,
+  "newThisRun": 130,
+  "newest": "2026-11-22T22:00:00Z",
+  "oldest": "2026-11-21T10:22:00Z"
 }
