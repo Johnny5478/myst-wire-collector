@@ -1,12 +1,12 @@
 {
-  "ranAt": "2026-11-22T00:10:31Z",
+  "ranAt": "2026-11-22T01:43:03Z",
   "feeds": [
     {
       "name": "PR Newswire",
       "url": "https://www.prnewswire.com/rss/news-releases-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 1,
+      "new": 4,
       "error": null
     },
     {
@@ -150,15 +150,15 @@
       "url": "https://www.globenewswire.com/RssFeed/country/United%20States/feedTitle/GlobeNewswire%20-%20News%20from%20United%20States",
       "status": "ok",
       "items": 20,
-      "new": 3,
+      "new": 2,
       "error": null
     },
     {
       "name": "Business Wire",
       "url": "https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeEFpRXg==",
       "status": "ok",
-      "items": 42,
-      "new": 0,
+      "items": 34,
+      "new": 1,
       "error": null
     },
     {
@@ -177,7 +177,7 @@
       "feeds": 17,
       "ok": 17,
       "items": 340,
-      "new": 5,
+      "new": 8,
       "lastError": null
     },
     {
@@ -185,15 +185,15 @@
       "feeds": 2,
       "ok": 2,
       "items": 40,
-      "new": 3,
+      "new": 2,
       "lastError": null
     },
     {
       "name": "Business Wire",
       "feeds": 1,
       "ok": 1,
-      "items": 42,
-      "new": 0,
+      "items": 34,
+      "new": 1,
       "lastError": null
     },
     {
@@ -205,8 +205,8 @@
       "lastError": "HTTPError: HTTP Error 404: Not Found"
     }
   ],
-  "itemsStored": 1125,
-  "newThisRun": 8,
-  "newest": "2026-11-22T00:08:00Z",
-  "oldest": "2026-11-20T12:11:00Z"
+  "itemsStored": 972,
+  "newThisRun": 11,
+  "newest": "2026-11-22T01:15:00Z",
+  "oldest": "2026-11-20T13:44:00Z"
 }
