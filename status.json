@@ -1,12 +1,12 @@
 {
-  "ranAt": "2026-11-22T05:50:19Z",
+  "ranAt": "2026-11-22T06:54:48Z",
   "feeds": [
     {
       "name": "PR Newswire",
       "url": "https://www.prnewswire.com/rss/news-releases-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 8,
+      "new": 3,
       "error": null
     },
     {
@@ -62,7 +62,7 @@
       "url": "https://www.prnewswire.com/rss/environment-latest-news/environment-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 8,
+      "new": 10,
       "error": null
     },
     {
@@ -86,7 +86,7 @@
       "url": "https://www.prnewswire.com/rss/heavy-industry-manufacturing-latest-news/heavy-industry-manufacturing-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 6,
+      "new": 8,
       "error": null
     },
     {
@@ -102,7 +102,7 @@
       "url": "https://www.prnewswire.com/rss/multicultural-latest-news/multicultural-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 5,
+      "new": 4,
       "error": null
     },
     {
@@ -118,7 +118,7 @@
       "url": "https://www.prnewswire.com/rss/sports-latest-news/sports-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 16,
+      "new": 17,
       "error": null
     },
     {
@@ -126,7 +126,7 @@
       "url": "https://www.prnewswire.com/rss/telecommunications-latest-news/telecommunications-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 6,
+      "new": 7,
       "error": null
     },
     {
@@ -157,8 +157,8 @@
       "name": "Business Wire",
       "url": "https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeEFpRXg==",
       "status": "ok",
-      "items": 28,
-      "new": 6,
+      "items": 29,
+      "new": 1,
       "error": null
     },
     {
@@ -192,8 +192,8 @@
       "name": "Business Wire",
       "feeds": 1,
       "ok": 1,
-      "items": 28,
-      "new": 6,
+      "items": 29,
+      "new": 1,
       "lastError": null
     },
     {
@@ -205,8 +205,8 @@
       "lastError": "HTTPError: HTTP Error 404: Not Found"
     }
   ],
-  "itemsStored": 532,
-  "newThisRun": 59,
-  "newest": "2026-11-22T05:46:00Z",
-  "oldest": "2026-11-20T17:52:00Z"
+  "itemsStored": 447,
+  "newThisRun": 54,
+  "newest": "2026-11-22T06:49:00Z",
+  "oldest": "2026-11-20T18:55:00Z"
 }
