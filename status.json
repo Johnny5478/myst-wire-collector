@@ -1,12 +1,12 @@
 {
-  "ranAt": "2026-11-24T04:32:03Z",
+  "ranAt": "2026-11-24T05:52:50Z",
   "feeds": [
     {
       "name": "PR Newswire",
       "url": "https://www.prnewswire.com/rss/news-releases-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 4,
+      "new": 14,
       "error": null
     },
     {
@@ -150,7 +150,7 @@
       "url": "https://www.globenewswire.com/RssFeed/country/United%20States/feedTitle/GlobeNewswire%20-%20News%20from%20United%20States",
       "status": "ok",
       "items": 20,
-      "new": 0,
+      "new": 1,
       "error": null
     },
     {
@@ -158,7 +158,7 @@
       "url": "https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeEFpRXg==",
       "status": "ok",
       "items": 615,
-      "new": 0,
+      "new": 2,
       "error": null
     },
     {
@@ -177,7 +177,7 @@
       "feeds": 17,
       "ok": 17,
       "items": 340,
-      "new": 4,
+      "new": 14,
       "lastError": null
     },
     {
@@ -185,7 +185,7 @@
       "feeds": 2,
       "ok": 2,
       "items": 40,
-      "new": 0,
+      "new": 1,
       "lastError": null
     },
     {
@@ -193,7 +193,7 @@
       "feeds": 1,
       "ok": 1,
       "items": 615,
-      "new": 0,
+      "new": 2,
       "lastError": null
     },
     {
@@ -206,7 +206,7 @@
     }
   ],
   "itemsStored": 1848,
-  "newThisRun": 4,
-  "newest": "2026-11-24T04:28:00Z",
-  "oldest": "2026-11-22T17:00:00Z"
+  "newThisRun": 17,
+  "newest": "2026-11-24T05:34:00Z",
+  "oldest": "2026-11-22T17:54:00Z"
 }
