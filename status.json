@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-28T03:22:54Z",
+  "ranAt": "2026-11-28T04:28:36Z",
   "feeds": [
     {
       "name": "PR Newswire",
@@ -102,7 +102,7 @@
       "url": "https://www.prnewswire.com/rss/multicultural-latest-news/multicultural-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 3,
+      "new": 5,
       "error": null
     },
     {
@@ -110,7 +110,7 @@
       "url": "https://www.prnewswire.com/rss/policy-public-interest-latest-news/policy-public-interest-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 0,
+      "new": 2,
       "error": null
     },
     {
@@ -118,7 +118,7 @@
       "url": "https://www.prnewswire.com/rss/sports-latest-news/sports-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 1,
+      "new": 2,
       "error": null
     },
     {
@@ -177,7 +177,7 @@
       "feeds": 17,
       "ok": 17,
       "items": 340,
-      "new": 6,
+      "new": 11,
       "lastError": null
     },
     {
@@ -205,8 +205,8 @@
       "lastError": "HTTPError: HTTP Error 404: Not Found"
     }
   ],
-  "itemsStored": 882,
-  "newThisRun": 6,
-  "newest": "2026-11-28T03:00:00Z",
-  "oldest": "2026-11-26T15:24:00Z"
+  "itemsStored": 835,
+  "newThisRun": 11,
+  "newest": "2026-11-28T04:24:00Z",
+  "oldest": "2026-11-26T16:32:00Z"
 }
