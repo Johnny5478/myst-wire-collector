@@ -1,12 +1,12 @@
 {
-  "ranAt": "2026-11-28T09:44:21Z",
+  "ranAt": "2026-11-28T10:44:26Z",
   "feeds": [
     {
       "name": "PR Newswire",
       "url": "https://www.prnewswire.com/rss/news-releases-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 0,
+      "new": 1,
       "error": null
     },
     {
@@ -62,7 +62,7 @@
       "url": "https://www.prnewswire.com/rss/environment-latest-news/environment-latest-news-list.rss",
       "status": "ok",
       "items": 20,
-      "new": 2,
+      "new": 3,
       "error": null
     },
     {
@@ -177,7 +177,7 @@
       "feeds": 17,
       "ok": 17,
       "items": 340,
-      "new": 15,
+      "new": 17,
       "lastError": null
     },
     {
@@ -205,8 +205,8 @@
       "lastError": "HTTPError: HTTP Error 404: Not Found"
     }
   ],
-  "itemsStored": 724,
-  "newThisRun": 17,
-  "newest": "2026-11-28T09:39:00Z",
-  "oldest": "2026-11-26T21:53:00Z"
+  "itemsStored": 715,
+  "newThisRun": 19,
+  "newest": "2026-11-28T10:30:00Z",
+  "oldest": "2026-11-26T22:55:00Z"
 }
